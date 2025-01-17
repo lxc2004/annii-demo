@@ -1,0 +1,378 @@
+@media screen and (max-width: 600px) {
+
+    header {
+        max-width:10%;
+        margin-left: -80px;
+        font-size: 0.9em;
+    }
+  .title,.titleS{
+    font-size:20px !important;
+  }
+  section{
+  position: relative;
+    width: 100% !important;
+    height: 100vh;
+  padding:0 !important;
+    padding-top: 200px !important;
+    overflow: hidden;
+  }
+  
+  #text{
+    display:none!important;
+  }
+    section img{
+    width:100% !important;
+        
+    margin-left:0 !important;
+    margin-right:0 !important;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  *{
+    font-family:'Merriweather', serif;
+  
+  }
+  body {
+    min-height: 150vh;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, #fff, #ff8fab); 
+  }
+  
+  header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  
+  }
+
+
+
+/* Floating gallery container */
+.floating-gallery {
+  margin-top: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 25px;
+}
+
+
+.pic1 img{
+  width: 230px;
+  transform: translate(4%,-215%);
+}
+
+.pic2 img{
+  width: 260px;
+  transform: translate(354%, 35%);
+}
+
+.pic3 img{
+  width: 270px;
+  transform: rotate(4deg) translate(344%, -1060%);
+}
+
+
+.pic4 img{
+  width: 270px;
+  transform: rotate(2deg) translate(-14%, -825%);
+}
+
+.title h1{
+  font-size: 6rem;
+  font-family: "Birthstone", cursive;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  justify-items: center;
+
+}
+
+
+/* Flip card setup */
+.flip-card {
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+  margin: 26px;
+  border: 5px solid #FB9AD1;
+  background-color: #FB9AD1;
+  border-radius: 20px;
+}
+
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1.4s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Front and back faces */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Front face - image */
+.flip-card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Back face - note */
+.flip-card-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FB9AD1;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  transform: rotateY(180deg);
+  border-radius: 20px;
+  /* padding: 10px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.flip-card-back p {
+  font-weight: bolder;
+  font-family: "Birthstone", cursive;
+  font-size: 18px;
+}
+
+.card1 { 
+  transform: rotate(1deg)  translate(-32%, -90%);
+}
+
+.card2 { 
+  transform: rotate(-3deg)  translate(-15%, -105%);
+}
+
+.card3 { 
+  transform: rotate(-1deg)  translate( 70%, -103%);
+}
+
+.card4 { 
+  transform: rotate(-6deg)  translate(-70%, -235%);
+}
+
+.card5 { 
+  transform: rotate(1.8deg)  translate(170%, -204%);
+}
+
+.card6 { 
+  transform: rotate(1.8deg)  translate(70%, 504%);
+}
+
+.card7 { 
+  transform: rotate(6deg)  translate(-275%, -118%);
+}
+
+.card8 { 
+  transform: rotate(-2deg)  translate(-245%, -127%);
+}
+
+.card9 { 
+  transform: rotate(1deg)  translate(-45%, -207%);
+}
+
+.card10 { 
+  transform: rotate(2.5deg)  translate(264%, -247%);
+}
+
+.card11 { 
+  transform: rotate(8deg)  translate(-244%, -105%);
+}
+
+.card12 { 
+  transform: rotate(2.5deg)  translate(190%, -340%);
+}
+
+.card13 { 
+  transform: rotate(3deg)  translate(-240%, -210%);
+}
+
+.card14 { 
+  transform: rotate(-1deg)  translate(-200%, -210%);
+}
+
+.card15 { 
+  transform: rotate(0.5deg)  translate(275%, -330%);
+}
+
+.card16 { 
+  transform: rotate(2deg)  translate(-70%, -210%);
+}
+
+.card17 { 
+  transform: rotate(-3deg)  translate(404%, -210%);
+}
+
+.card18 { 
+  transform: rotate(1deg)  translate(-55%, -90%);
+}
+
+.card19 { 
+  transform: rotate(1deg)  translate(-255%, -120%);
+}
+
+.card20 { 
+  transform: rotate(2.7deg)  translate(-120%, -210%);
+}
+
+.card21 { 
+  transform: rotate(2.7deg)  translate(107%, -335%);
+}
+
+.card22 { 
+  transform: rotate(-1.7deg)  translate(267%, -125%);
+}
+
+.card23 { 
+  transform: rotate(-2deg)  translate(227%, -442%);
+}
+
+.card24 { 
+  transform: rotate(3.8deg)  translate(265%, -600%);
+}
+
+.card25 { 
+  transform: rotate(2.3deg)  translate(-90%, -325%);
+}
+
+.card26 { 
+  transform: rotate(-2deg)  translate(-340%, -225%);
+}
+
+.card27 { 
+  transform: rotate(-1deg)  translate(155%, -325%);
+}
+
+.card28 { 
+  transform: rotate(2deg)  translate(145%, -325%);
+}
+
+.card29 { 
+  transform: rotate(-1deg)  translate(180%, -355%);
+}
+
+.card31 { 
+  transform: rotate(4deg)  translate(-20%, -335%);
+}
+
+.card30 { 
+  transform: rotate(-1deg)  translate(-210%, -215%);
+}
+
+.card32 { 
+  transform: rotate(-1deg)  translate(160%, -315%);
+}
+
+.card33 { 
+  transform: rotate(3deg)  translate(-140%, -205%);
+}
+
+.card34 { 
+  transform: rotate(-1deg)  translate(-120%, -205%);
+}
+
+.card35 { 
+  transform: rotate(3deg)  translate(350%, -355%);
+}
+
+.card36 { 
+  transform: rotate(2deg)  translate(-130%, -215%);
+}
+
+.card37 { 
+  transform: rotate(2deg)  translate(-120%, -205%);
+}
+
+.card38 { 
+  transform: rotate(2deg)  translate(370%, -345%);
+}
+
+
+.card39 { 
+  transform: rotate(-5deg)  translate(-80%, -230%);
+}
+
+.card40 { 
+  transform: rotate(-1deg)  translate(-80%, -230%);
+}
+
+.card41 { 
+  transform: rotate(-1deg)  translate(-50%, -220%);
+}
+
+.card42 { 
+  transform: rotate(3deg)  translate(50%, -220%);
+}
+
+.card43 { 
+  transform: rotate(-3deg)  translate(100%, -220%);
+}
+
+.card44 { 
+  transform: rotate(-3deg)  translate(100%, -220%);
+}
+
+.card45 { 
+  transform: rotate(-3deg)  translate(100%, -220%);
+}
+
+.card46 { 
+  transform: rotate(-3deg)  translate(100%, -220%);
+}
+
+@media (max-width: 1360px) {
+  .floating-gallery {
+    width: 100%;
+    transform: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Reduce gap for smaller screens */
+    max-width: 95%;
+    margin-top: 100px;
+  }
+  
+  .flip-card {
+    width: 22%; /* Maintain relative size */
+    max-width: 220px;
+    position: relative;
+    transform: rotate(calc(var(--random-rotation) * 0.6)) translate(calc(var(--random-x) * 0.6), calc(var(--random-y) * 0.6)); /* Maintain messiness but scale down */
+  }
+
+
+  .pic4 img{
+    width: 270px;
+    transform: rotate(2deg) translate(-74%, -2150%);
+  }
+
+}
