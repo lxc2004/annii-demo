@@ -1,0 +1,2152 @@
+@media screen and (max-width: 600px) {
+
+  header {
+      max-width:10%;
+      margin-left: -80px;
+      font-size: 0.9em;
+  }
+.title,.titleS{
+  font-size:20px !important;
+}
+section{
+position: relative;
+  width: 100% !important;
+  height: 100vh;
+padding:0 !important;
+  padding-top: 200px !important;
+  overflow: hidden;
+}
+
+#text{
+  display:none!important;
+}
+  section img{
+  width:100% !important;
+      
+  margin-left:0 !important;
+  margin-right:0 !important;
+  }
+}
+
+
+
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, #86469C, #FB9AD1); 
+  }
+  
+  header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 570%;
+    padding: 180px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+
+
+  /* what i love abt u */
+  .ilymenu{
+     width: 250px;
+     height: 400px;
+     background-color: #FB9AD1;
+     border-radius: 15px;
+     padding: 8px;
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     position: relative;
+     transform: translate(7%, 8%);
+}
+
+
+/* behind pic header */
+.header-ilymenu{
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 160px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin-bottom: 9px;
+}
+
+.content{
+  margin-top: 200px;
+}
+
+#dynamic-image{
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+  border: 2px solid #86469C;
+  /* Center the image if inside a container */
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+#dynamic-message {
+  color: rgba(255, 255, 255, 0.768);
+  font-size: 19px;
+  font-family: "Birthstone", cursive;
+  font-weight: bolder;
+  
+  /* Center text horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    width: 100%; /* Or set a fixed width if required */
+  height: 100%; /* Or set a fixed height if needed */
+}
+
+#dynamic-message, #dynamic-image {
+  transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+.fade-out {
+  opacity: 0; /* Fade out effect */
+}
+
+.fade-in {
+  opacity: 1; /* Fade in effect */
+}
+
+.btn-group {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  gap: 20px;
+  margin-left: 6px;
+}
+
+.before-button,.next-button{
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  font-size: 24px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+
+.before-button:hover,
+.next-button:hover {
+
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.message{
+
+  font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8px;
+  transform: translate(-2%,480%);
+  color: #FB9AD1;
+  background: hsla(0, 0%, 100%, 0.772);
+  border-radius: 14px;
+  border: solid;
+  height: 50px;
+  width: 190px;
+  text-align: center;
+}
+
+.message1{
+  font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8px;
+  transform: translate(550%,-110%);
+  color: #86469C;
+  background: hsla(0, 0%, 100%, 0.772);
+  border-radius: 14px;
+  border: solid;
+  height: 200px;
+  width: 190px;
+  text-align: center;
+}
+
+.search-box{
+  justify-content: center;
+  text-decoration: none; 
+  width: 650px;
+  height: 250px;
+  cursor: pointer;
+  transition: none;
+  align-items: center;
+  margin-left: 1150px;
+  transform: translate(-12%, -410%);
+}
+
+/* title */
+.milk-mocha p{
+  position: relative;
+  text-align: center;
+  border: 3px solid #FB9AD1; 
+  border-radius: 12px;
+  font-family: "Birthstone", cursive;
+  color: #FB9AD1;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 500px;
+}
+
+/* search image */
+.srch-picture img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 60px;
+  transform: translateY(26%);
+  border: 4px solid #FB9AD1;  
+  padding: 2px;
+}
+
+/* the search bar itself */
+.search-bar{
+  padding: 20px;
+}
+
+/* inside search box notes */
+#input-box {
+  border-color: #FB9AD1;
+  margin-top: -70px;
+  margin-left: 150px;
+  border-radius: 11px;
+  width: 465px; 
+  height: 50px;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 8px;
+  margin-bottom: 10px;
+} 
+
+
+/* weird button DONT TOUCH */
+ .submitt {
+  background: transparent;
+  border: none;
+} 
+
+/* search magnifying icon */
+.fa-magnifying-glass {
+    font-size: 180%;
+    border-radius: 50%;
+    transform: translate(2450%,-330%);
+    cursor: pointer;
+    background-color: #ffffffad;
+    text-decoration: none;
+    transition: 0.3s ease;
+    color: #FB9AD1;
+}
+
+/* hiiden calender */
+.container{
+  width: 700px;
+  height: 370px;
+  position: absolute;
+  box-shadow:-2px 0px 20px 9px #FB9AD1;
+  background: #ffffff;
+  top: 52%;
+  left: 54%;
+  transform: translate(30%, -45%);
+  /* background: transparent; */
+}
+
+.hidden{
+  display: none;
+}
+
+.clock{
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(15% ,-30%);
+}
+
+.clock span{
+  font-size: 50px;
+  width: 70px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  color: #FB9AD1;
+}
+
+.clock span::after{
+  font-size: 15px;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%);
+  color: #ff8fab
+}
+
+
+#days::after{
+  content: 'Days';
+}
+
+#hrs::after{
+  content: 'Hrs';
+}
+
+#mins::after{
+  content: 'Mins';
+}
+
+#sec::after{
+  content: 'Secs';
+}
+
+
+/* three hearts in calender */
+.heart-container {
+  display: flex;
+  justify-content: center;  /* Align hearts horizontally in the center */
+  transform: translate(-0.2%,-180%);
+}
+
+.heartpic {
+  display: flex;  /* Align child images in a row */
+  gap: 20px;  /* Add spacing between hearts */
+}
+
+.heartpic img {
+  width: 55px;
+  height: 85px;
+  border-radius: 50%;  /* Make images circular */
+  object-fit: cover;   /* Ensure proper scaling */
+  background: transparent;
+}
+
+.hug-picture img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
+  transform: translate(7%,-140%);
+  border: 4px solid #FB9AD1;  
+  background: transparent;
+}
+
+.kiss-picture img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: -40px;
+  transform: translate(970%, -246%);
+  border: 4px solid #FB9AD1;  
+  background: transparent;
+}
+
+
+
+/* calender button */
+.more {
+    font-family: 'Merriweather', serif; 
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    background-color: #FB9AD1;
+    color: #fff; /* yes and no color */
+    transform: translate(200.3%, -500%);
+}
+
+.more:hover{
+  background-color: #ff8fab;
+  color: #fff;
+  border-radius: 20px;
+}
+
+/* Smooth scrolling effect of the more button */
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* remove the link of button */
+.more a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px 20px;
+}
+
+.headlock-title img{
+  object-fit: cover;
+  margin-left: 40px;
+  transform: translate(700%, -150%);
+  border: 3px solid #FB9AD1;  
+  background: transparent;
+  width: 150px;
+  height: 150px;
+  margin: 0.5em;
+  border-radius: 1%;
+}
+
+.main {
+  height: 120%;
+  margin: 5%;
+  margin-top: 900px;
+  transform: translate(6%,8%);
+}
+
+/* Polaroid Gallery */
+.polaroid-1 {
+  transform: rotate(-7deg) translate(-20%, -60%);
+}
+
+.polaroid-2 {
+  transform: rotate(5deg) translate(-10%, -40%);
+}
+
+.polaroid-3 {
+  transform: rotate(3deg) translate(19%, -65%);
+}
+
+.polaroid-4 {
+  transform: rotate(5deg) translate(0%, -100%);
+}
+
+.polaroid-5 {
+  transform: rotate(-2deg) translate(-10%, -110%);
+}
+
+.polaroid-6 {
+  transform: rotate(-3deg) translate(222%, -120%);
+}
+
+.polaroid-7 {
+  transform: rotate(5deg) translate(80%, -20%);
+}
+
+.polaroid-8 {
+  transform: rotate(3deg) translate(-184%, -29%);
+}
+
+.polaroid-9 {
+  transform: rotate(-3deg) translate(-50%, -140%);
+}
+
+.polaroid-10 {
+  transform: rotate(-2deg) translate(-150%, -274%);
+}
+
+.text1 {
+ transform: rotate(1deg) translate(-4%, -44%);
+}
+
+.text2 {
+  transform: translate(-17%, -125%);
+ }
+
+ .text3 {
+  transform: translate(33%, -246%);
+ }
+
+
+.polaroid-container {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: space-around; /* Space items evenly */
+  margin-top: 120px;
+}
+
+.polaroid {
+  background-color: white; /* Set a background for polaroids */
+  border: 2px solid #ccc; /* Border for polaroids */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+  margin: 10px; /* Added margin for spacing */
+  padding: 10px; /* Added padding inside polaroid */
+  width: 270px; /* Set a consistent width */
+  max-height: fit-content;
+  text-align: center; /* Centered text in polaroids */
+}
+
+.polaroid img {
+  width: 100%; /* Responsive width */
+  height: auto;
+  border: 1px solid #333; /* border around pic */
+}
+
+.caption {
+  font-weight: bold; /* Highlight the caption */
+  margin: 5px 0; /* Margin for spacing */
+  color: #555;
+}
+
+.note {
+  color: #888; /* Lighter color for notes */
+  font-size: 12px; /* Smaller font size for notes */
+  font-weight: bold;
+  height: auto;
+}
+
+.small-text {
+  background-color: #ffffff; /* Changed to white for contrast */
+  color: #333;
+  max-height: fit-content;
+  font-family: 'Merriweather', serif; 
+  font-weight: bold; /* Maintain bold font weight */
+  font-size: 14px; /* Slightly larger font size for readability */
+  width: 450px; /* Keep consistent width */
+  padding: 15px; /* Added padding for better spacing */
+  margin: 15px; /* Added margin for spacing between elements */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  text-align: center; /* Center text alignment */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+
+.small-text h1 {
+  font-family: 'Merriweather', serif; 
+  margin: 10px 0; /* Space around heading */
+  font-size: 18px; /* Increased heading size */
+  color: #FB9AD1; /* Adding a contrasting color to the heading */
+}
+
+.small-text img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%; /* Maintain circular shape */
+  object-fit: cover; /* Ensure image covers the area */
+  margin: 15px auto; /* Center image with margin */
+  border: 1px solid #FB9AD1; /* Slightly increased border size */
+  padding: 2px;
+}
+
+.small-text p {
+  font-family: "Birthstone", cursive;
+  font-weight: normal; /* Use normal weight for body text */
+  font-size: 14px; /* Keep body text size consistent */
+  line-height: 1.6; /* Increased line height for readability */
+  margin: 10px 0; /* Space around paragraph */
+  color: #555; /* Lighter color for body text */
+}
+
+/* letter section */
+.letter-section {
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1.4px, transparent 2px);
+  background-size: 100% 30px;
+  padding: 60px;
+  text-align: center;
+  border: 6px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  width: 1290px; 
+  margin-top: 550px;
+
+}
+
+.letter-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  color: #86469C; /* Theme color */
+  transform: translateY(-42%);
+}
+
+/* paper beside title */
+.icon {
+  width: 90px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* button options of letter */
+.letter-snippets {
+  display: flex;
+  justify-content: center;
+  gap: 170px;
+  flex-wrap: wrap;
+  margin-bottom: 170px;
+  transform: translate(1%, 30%);
+}
+
+
+.snippet-button {
+  display: block;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 50px;
+  width: 350px;
+  text-align: center;
+  transition: transform 0.7s, box-shadow 0.4s;
+  color: #333;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.snippet-button h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 45px;
+  margin-top: -15px;
+}
+
+.snippet-button p {
+  font-family: 'Merriweather', serif; 
+  font-size: 17px;
+  color: #555;
+  line-height: 2.2;
+}
+
+.snippet-button:hover {
+  transform: translateY(-7px);
+  box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.2);
+}
+
+
+/* camera title */
+.fav-pics{
+  margin-top: 20px;
+  padding: 90px;
+  text-align: center;
+  border-radius: 8px;
+  color: #fff;
+  margin-left: -3px;
+  padding: 60px;
+  text-align: center;
+  width: 1310px;
+  overflow: hidden; 
+  position: relative;
+}
+
+.heart-line{
+  transform: translate(1%, -75%);
+}
+
+
+.heart-line p{
+  font-family: "Birthstone", cursive;
+  text-decoration: underline #FB9AD1;
+  border-radius: 12px;
+  /* padding: 5px 0px; */
+  font-weight: bolder;
+  font-size: 60px;
+  text-align: center;
+}
+
+.heart-line img{
+  height: 200px;
+  width: 300px;
+  transform: rotate(-8deg) translate(-170%, 66%);
+}
+
+.heart-line2 img{
+  height: 230px;
+  width: 300px;
+  transform: rotate(3deg) translate(60%, -33%);
+}
+
+
+.heart-line2{
+  transform: translate(24.5%, -205.5%);
+}
+
+/* milk and mocha taking pic picture */
+.click {
+  width: 165px;
+  height:15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3em;
+  color: #fff; 
+  flex: 1 1 250px;
+  margin: 0.6em;
+  border-radius: 15px;
+  transform: translate( -37%, -660%);
+  padding: 2%;
+  margin-left: 80px;
+}
+
+.click img {
+  width: 310px;
+  height: 310px;
+  margin: 0.5em;
+}
+
+
+.click1 {
+  width: 165px;
+  height:15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3em;
+  color: #fff; 
+  flex: 1 1 250px;
+  margin: 0.6em;
+  border-radius: 15px;
+  transform: translate( 467%, -590%);
+  padding: 2%;
+  margin-left: 80px;
+}
+
+.click1 img {
+  width: 310px;
+  height: 310px;
+  margin: 0.5em;
+}
+
+
+.click2 {
+  width: 165px;
+  height:15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3em;
+  color: #fff; 
+  flex: 1 1 250px;
+  margin: 0.6em;
+  border-radius: 15px;
+  transform: rotate(7deg) translate( 507%, 700%);
+  padding: 2%;
+  margin-left: 80px;
+}
+
+.click2 img {
+  width: 310px;
+  height: 310px;
+  margin: 0.5em;
+}
+
+.camera{
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: space-around; /* Space items evenly */
+  transform: translateY(-154%);
+  border-radius: 10px;
+  margin: 20px auto;
+  position: relative;
+
+  width: 400px;
+  height: 500px;
+}
+
+.picinsidepol img{
+  width: 130px;
+  height: 140px;
+  transform: translate(-51%,-200%);
+  border: 4px solid black;
+  
+}
+
+.polaroidcam{
+  background-color: white; /* Set a background for polaroids */
+  border: 2px solid #ccc; /* Border for polaroids */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+  margin: 10px; /* Added margin for spacing */
+  padding: 10px; /* Added padding inside polaroid */
+  max-height: fit-content;
+  text-align: center; /* Centered text in polaroids */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none; /* Remove link underline */
+  color: inherit; /* Inherit text color */
+  cursor: pointer;
+  background: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.polaroidcam img {
+  width: 100%; /* Responsive width */
+  height: auto;
+  border: 2px solid #333; /* border around pic */
+}
+
+
+
+.polaroidcam:hover {
+  transform: scale(1.01);
+  box-shadow:-2px 0px 20px 9px #FB9AD1;
+}
+
+/* Small note under the image */
+.small_note {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Floating gallery container */
+.floating-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 25px;
+}
+
+/* Flip card setup */
+.flip-card {
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+  margin: 26px;
+  border: 5px solid #FB9AD1;
+  background-color: #FB9AD1;
+  border-radius: 20px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1.4s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Front and back faces */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Front face - image */
+.flip-card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Back face - note */
+.flip-card-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FB9AD1;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  transform: rotateY(180deg);
+  border-radius: 20px;
+  /* padding: 10px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.flip-card-back p {
+  font-weight: bolder;
+  font-family: "Birthstone", cursive;
+  font-size: 18px;
+}
+
+.musicsec {
+  background: #f0f0f0de; /* Dark background for better contrast */
+  margin: 0;
+  height: 105vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  width: 900px;
+  border-radius: 12px;
+  transform: translate( 4%,-156%);
+}
+
+.svg-title h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-family: "Birthstone", cursive;
+  color: #86469C; /* font color of title */
+  transform: translate( 4%,-76%);
+
+
+}
+
+
+/* Vinyl Records as Emotion Buttons */
+.emotion-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two vinyls per row */
+  gap: 10px; /* Adjust gap between vinyls */
+  transform: translateY(-20%);
+  gap: 120px; /* Increased gap between vinyls */
+  z-index: 2; /* Makes sure the buttons are above the background */
+}
+
+
+.vinyl {
+  background-image: url('Premium_Vector___Realistic_Vinyl_Record-removebg-preview.png'); /* Add your vinyl image */
+  background-size: cover;
+  cursor: pointer;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  border-radius: 50%;
+  transition: transform 3.5s ease-in-out;
+}
+
+.vinyl p {
+  text-align: center;
+  transform: translateY(614%);
+  font-family: 'Merriweather', serif; 
+  color: #86469C;
+  font-size: 19px;
+  text-align: center;
+  font-weight: 900;
+}
+
+/* Spinning Animation */
+.vinyl.playing {
+  animation: spin 2s linear infinite;
+}
+
+.vi2 p{
+  transform: translateY(295%);
+}
+
+.vi3 p{
+  transform: translateY(142%);
+}
+
+.vi4 p{
+  transform: translateY(292%);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.lyrics_cont{
+  background: transparent;
+  
+}
+.lyrics {
+  background-color: #ffffff; /* Changed to white for contrast */
+  color: #333;
+  max-height: fit-content;
+  font-family: 'Merriweather', serif; 
+  font-weight: bold; /* Maintain bold font weight */
+  font-size: 14px; /* Slightly larger font size for readability */
+  width: 380px; /* Keep consistent width */
+  height: auto;
+  padding: 15px; /* Added padding for better spacing */
+  margin-top: 45px; /* Added margin for spacing between elements */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  text-align: center; /* Center text alignment */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+  transform: translate(235%,-565%);
+}
+
+.ly1{
+  transform: translate(235%, -705%);
+}
+
+.ly2{
+  transform: translate(235%, -410%);
+}
+
+.ly3{
+  transform: translate(235%,-705%);
+}
+
+.lyrics h1 {
+  font-family: 'Merriweather', serif; 
+  margin: 10px 0; /* Space around heading */
+  font-size: 18px; /* Increased heading size */
+  color: #FB9AD1; /* Adding a contrasting color to the heading */
+}
+
+.lyrics img {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%; /* Maintain circular shape */
+  object-fit: cover; /* Ensure image covers the area */
+  margin: 15px auto; /* Center image with margin */
+  border: 1px solid #FB9AD1; /* Slightly increased border size */
+  padding: 2px;
+}
+
+.lyrics p {
+  font-family: "Birthstone", cursive;
+  font-weight: normal; /* Use normal weight for body text */
+  font-size: 14px; /* Keep body text size consistent */
+  line-height: 1.6; /* Increased line height for readability */
+  margin: 10px 0; /* Space around paragraph */
+  color: #555; /* Lighter color for body text */
+}
+
+
+.urplaylist{
+  font-family: 'Merriweather', serif; 
+  font-weight:lighter; /* Use normal weight for body text */
+  font-size: 14px; /* Keep body text size consistent */
+  line-height: 1.6; /* Increased line height for readability */
+  margin: 10px 0; /* Space around paragraph */
+  color: #86469C; /* Lighter color for body text */
+}
+
+.urplaylist h1{
+  transform: translate(-14%,66%);
+}
+
+.playlist-btn {
+  position: absolute;
+  bottom: -5px;
+  margin-left: 6px;
+  cursor: pointer;
+  display: flex;
+  transform: translate(156%, -63%);
+  font-family: 'Merriweather', serif; 
+  width: 150px;
+  height: 43px;
+  font-size: 10px;
+  text-decoration: none;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background-color: #86469C;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s ease-out;
+  }
+  
+
+.playlist-btn:hover{
+  transition: 0.3s ease-in;
+  background-color: #87469cb4;}
+
+/* The white rectangular box (modal) */
+.story-modal {
+  display: none; /* Hidden initially */
+  position: fixed;
+  top: 20%;
+  transition: 0.5s ease-in;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  width: 70%;
+  max-width: 800px;
+  box-shadow: 0px 12px 22px #FB9AD1;
+  z-index: 9999;
+  height: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.story-modal p {
+  font-size: 20px;
+  margin-bottom: 70px;
+  font-weight: 900;
+  color: #86469C;
+  font-family: 'Merriweather', serif; 
+  font-weight: normal; /* Use normal weight for body text */
+  line-height: 1.6; /* Increased line height for readability */
+  margin: 100px 0; /* Space around paragraph */
+  transform: translateY(-50%);
+}
+
+.story-modal .next-button {
+  padding: 3px 20px;
+  font-size: 19px;
+  background-color: #86469C;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  text-decoration: none;
+  transform: translate(240%, -180%);
+}
+
+.story-modal .next-button:hover {
+  color: #fff;
+  background: #87469ca9;
+}
+
+.storycont{
+  transform: translate(15%,-404%);
+  background: #fff; /* Dark background for better contrast */
+  margin: 0;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.storycont p{
+  font-family: 'Merriweather', serif; 
+  font-weight: normal; /* Use normal weight for body text */
+  font-size: 18px; /* Keep body text size consistent */
+  line-height: 1.6; /* Increased line height for readability */
+  margin: 10px 0; /* Space around paragraph */
+  color: #555; /* Lighter color for body text */
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  transform: translateY(-60%);
+  padding: 15px;
+}
+
+.storycont img{
+  width: 150px;
+  height: auto;
+  transform: translate(-124%,115%);
+}
+
+/* Button style for showing the modal */
+.show-story-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #86469C;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition: 0.5s ease-out;
+  font-family: 'Merriweather', serif; 
+}
+
+.show-story-btn:hover {
+  transition: 0.3s ease-in;
+  background-color: #87469cb4;
+}
+
+.heart {
+  width: 120px;
+  height: 110px;
+  background-color: #f0f0f0;
+  clip-path: polygon(50% 0%, 0% 35%, 0% 100%, 50% 70%, 100% 100%, 100% 35%);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.heart:active {
+  transform: scale(0.95);
+}
+
+.heart.filled {
+  background: linear-gradient(135deg, #ff4d4d, #ff9999);
+}
+
+.caption {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #555;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+#video-container video, #video-container img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#video-container.show {
+  display: flex;
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.sticky-notepad {
+  position:relative;
+  top: -1875px;
+  right: -600px;
+  width: 400px;
+  height: 300px; /* Fixed height for the notepad */
+  background: #fff; /* soft sticky note background */
+  border: 1px solid #f2c1d1; 
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling */
+  transform: translate(2%,67%);
+
+}
+
+.sticky-header {
+  background: #86469C; /* gentle pink */
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-family: 'Merriweather', serif; 
+
+}
+
+.faq-content {
+  font-size: 16px;
+}
+
+.question {
+  margin: 10px 0;
+  padding: 10px;
+  background: #ffecf1; /* light pink */
+  border: 1px dashed #f2a6c9;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  color: #555; /* Lighter color for body text */
+
+}
+
+.question:hover {
+  background: #fddbe7;
+  border: 1px solid #fcb0b3;
+}
+
+.answer {
+  display: none;
+  margin-top: 10px;
+  padding: 15px;
+  background: #ffe7ec; /* soft answer background */
+  border-radius: 8px;
+  font-size: 15px;
+  font-style: italic;
+  color: #5a2c68; /* darker color for text */
+  line-height: 1.5;
+  border: 1px solid #f9b6d0;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.answer p {
+  margin: 0;
+}
+
+
+/* booking trial2 */
+
+.booking-section {
+  text-align: center;
+  background: #f0f0f0de; /* Dark background for better contrast */
+  padding: 20px;
+  border-radius: 10px;
+  transform: translateY(-487%);
+  position: relative;  /* ✅ Fix to properly position popup */
+}
+
+.booking-section h2 {
+  display: flex;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+  font-family: "Birthstone", cursive;
+  color: #86469C; /* font color of title */
+}
+
+.action-btn {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 18px;
+  background-color: #FB9AD1;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: 'Birthstone', cursive;
+  transition: all 0.3s ease;
+}
+
+
+.action-btn:hover {
+  background-color: #86469C;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 5px #FB9AD1;
+}
+
+#calendar-popup {
+  display: none;
+  background-color: #FCE4EC;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+#date-picker, #time-picker, #place-picker {
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #86469C;
+}
+
+#send-imessage-btn {
+  background-color: #5A2D82;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Birthstone', cursive;
+  font-size: 18px;
+}
+
+#confirmation-msg {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Birthstone', cursive;
+}
+
+
+
+
+.popup {
+  display: none;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.popup.show-popup { 
+  display: block !important;  /* ✅ Ensures the pop-up shows */
+}
+
+.confirmation-popup {
+  display: none;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.confirmation-popup.show-popup {
+  display: block !important;
+}
+
+
+
+
+
+
+
+@media (max-width: 1366px) {
+
+
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 100px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+
+/* what i love abt u */
+.ilymenu{
+   width: 80%;
+   height: 400px;
+   background-color: #FB9AD1;
+   border-radius: 15px;
+   padding: 8px;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   transform: translate(0%, 145%);
+   max-width: 250px;
+}
+
+
+/* behind pic header */
+.header-ilymenu{
+background-color: rgba(255, 255, 255, 0.8);
+height: 160px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 12px;
+margin-bottom: 9px;
+}
+
+.content{
+margin-top: 200px;
+}
+
+#dynamic-image{
+width: 80%;
+height: auto;
+object-fit: cover;
+border: 2px solid #86469C;
+/* Center the image if inside a container */
+display: block;
+margin: 0 auto;
+max-width: 180px;
+}
+
+
+
+#dynamic-message {
+color: rgba(255, 255, 255, 0.768);
+font-size: 19px;
+font-family: "Birthstone", cursive;
+font-weight: bolder;
+
+/* Center text horizontally and vertically */
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+  width: 100%; /* Or set a fixed width if required */
+height: 100%; /* Or set a fixed height if needed */
+}
+
+#dynamic-message, #dynamic-image {
+transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+.fade-out {
+opacity: 0; /* Fade out effect */
+}
+
+.fade-in {
+opacity: 1; /* Fade in effect */
+}
+
+.btn-group {
+position: absolute;
+bottom: 20px;
+display: flex;
+gap: 20px;
+margin-left: 6px;
+}
+
+.before-button,.next-button{
+border-radius: 50%;
+border: none;
+background-color: white;
+font-size: 24px;
+cursor: pointer;
+width: 50px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: background-color 0.3s;
+}
+
+
+.before-button:hover,
+.next-button:hover {
+background-color: rgba(255, 255, 255, 0.8);
+}
+
+.message{
+font-family: "Birthstone", cursive;
+font-weight: 400;
+font-style: normal;
+font-size: 8px;
+transform: translate(-2%,480%);
+color: #FB9AD1;
+background: hsla(0, 0%, 100%, 0.772);
+border-radius: 14px;
+border: solid;
+height: 50px;
+width: 190px;
+text-align: center;
+}
+
+.message1{
+font-family: "Birthstone", cursive;
+font-weight: 400;
+font-style: normal;
+font-size: 8px;
+transform: translate(380%, -370%);
+color: #86469C;
+background: hsla(0, 0%, 100%, 0.772);
+border-radius: 14px;
+border: solid;
+height: 200px;
+width: 190px;
+text-align: center;
+}
+
+.search-box{
+justify-content: center;
+text-decoration: none; 
+width: 90%;
+height: 250px;
+cursor: pointer;
+transition: none;
+align-items: center;
+margin-left: 1150px;
+transform: translate(25%, -650%);
+max-width: 500px;
+margin: auto;
+}
+
+/* title */
+.milk-mocha p{
+position: relative;
+text-align: center;
+border: 3px solid #FB9AD1; 
+border-radius: 12px;
+font-family: "Birthstone", cursive;
+color: #FB9AD1;
+font-weight: bolder;
+font-size: 20px;
+margin-top: 550px;
+transform: translate(130%, 20%);
+
+}
+
+/* search image */
+.srch-picture img {
+width: 90px;
+height: 90px;
+border-radius: 50%;
+object-fit: cover;
+margin-left: 60px;
+transform: translateY(26%);
+border: 4px solid #FB9AD1;  
+padding: 2px;
+}
+
+/* the search bar itself */
+.search-bar{
+padding: 20px;
+}
+
+/* inside search box notes */
+#input-box {
+border-color: #FB9AD1;
+margin-top: -70px;
+margin-left: 150px;
+border-radius: 11px;
+width: 465px; 
+height: 50px;
+font-size: 14px;
+font-weight: bolder;
+padding: 8px;
+margin-bottom: 10px;
+} 
+
+
+/* weird button DONT TOUCH */
+.submitt {
+background: transparent;
+border: none;
+} 
+
+/* search magnifying icon */
+.fa-magnifying-glass {
+  font-size: 180%;
+  border-radius: 50%;
+  transform: translate(2450%,-330%);
+  cursor: pointer;
+  background-color: #ffffffad;
+  text-decoration: none;
+  transition: 0.3s ease;
+  color: #FB9AD1;
+}
+
+/* hiiden calender */
+.container{
+width: 600px;
+height: 370px;
+position: absolute;
+box-shadow:-2px 0px 20px 9px #FB9AD1;
+background: #ffffff;
+top: 52%;
+left: 50%;
+transform: translate( 2%, -175%);
+max-width: 600px;
+}
+
+.hidden{
+display: none;
+}
+
+.clock{
+width: 80%;
+height: 80%;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+transform: translate(15% ,-30%);
+}
+
+.clock span{
+font-size: 50px;
+width: 70px;
+display: inline-block;
+text-align: center;
+position: relative;
+color: #FB9AD1;
+}
+
+.clock span::after{
+font-size: 15px;
+position: absolute;
+bottom: -20px;
+left: 50%;
+transform: translate(-50%);
+color: #ff8fab
+}
+
+
+#days::after{
+content: 'Days';
+}
+
+#hrs::after{
+content: 'Hrs';
+}
+
+#mins::after{
+content: 'Mins';
+}
+
+#sec::after{
+content: 'Secs';
+}
+
+
+/* three hearts in calender */
+.heart-container {
+display: flex;
+justify-content: center;  /* Align hearts horizontally in the center */
+transform: translate(-0.2%,-180%);
+}
+
+.heartpic {
+display: flex;  /* Align child images in a row */
+gap: 20px;  /* Add spacing between hearts */
+}
+
+.heartpic img {
+width: 55px;
+height: 85px;
+border-radius: 50%;  /* Make images circular */
+object-fit: cover;   /* Ensure proper scaling */
+background: transparent;
+}
+
+.hug-picture img {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+object-fit: cover;
+margin-left: 20px;
+transform: translate(7%,-140%);
+border: 4px solid #FB9AD1;  
+background: transparent;
+}
+
+.kiss-picture img {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+object-fit: cover;
+margin-left: -40px;
+transform: translate(820%, -246%);
+border: 4px solid #FB9AD1;  
+background: transparent;
+}
+
+/* calender button */
+.more {
+  font-family: 'Merriweather', serif; 
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  background-color: #FB9AD1;
+  color: #fff; /* yes and no color */
+  transform: translate(170%, -500%);
+}
+
+.more:hover{
+background-color: #ff8fab;
+color: #fff;
+border-radius: 20px;
+}
+
+/* Smooth scrolling effect of the more button */
+html {
+scroll-behavior: smooth;
+}
+
+
+/* remove the link of button */
+.more a {
+text-decoration: none;
+color: white;
+display: block;
+padding: 10px 20px;
+}
+
+.headlock-title img{
+object-fit: cover;
+margin-left: 40px;
+transform: translate(700%, -150%);
+border: 3px solid #FB9AD1;  
+background: transparent;
+width: 150px;
+height: 150px;
+margin: 0.5em;
+border-radius: 1%;
+}
+}
+
+
+
+  @media (max-width: 1366px) {
+    .main {
+        width: 100%;
+        transform: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -500px;
+    }
+
+    .polaroid-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px; /* Maintain spacing */
+        max-width: 95%;
+    }
+
+    .polaroid {
+        width: 22%; /* Slightly smaller */
+        max-width: 220px;
+        transform: none; /* Remove extreme shifting */
+        position: relative;
+    }
+
+    /* Reduce rotation but keep messy effect */
+    .polaroid-1 { transform: rotate(-5deg) translate(-10%, -10%); }
+    .polaroid-2 { transform: rotate(4deg) translate(10%, -15%); }
+    .polaroid-3 { transform: rotate(-3deg) translate(-8%, -8%); }
+    .polaroid-4 { transform: rotate(5deg) translate(10%, -12%); }
+    .polaroid-5 { transform: rotate(-4deg) translate(-5%, -5%); }
+    .polaroid-6 { transform: rotate(-2deg) translate(8%, -10%); }
+    .polaroid-7 { transform: rotate(3deg) translate(-6%, -6%); }
+    .polaroid-8 { transform: rotate(-3deg) translate(5%, -5%); }
+    .polaroid-9 { transform: rotate(4deg) translate(-10%, -10%); }
+    .polaroid-10 { transform: rotate(-2deg) translate(8%, -8%); }
+
+
+
+    /* Fix small text */
+    .small-text {
+        width: 21%;
+        max-width: 380px;
+        transform: none;
+        position: relative;
+        text-align: center;
+    }
+
+    /* Slightly reduce text size */
+    .small-text h1 {
+        font-size: 16px;
+    }
+
+    .small-text p {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 1366px) {
+  .letter-section {
+    padding: 40px 15px; /* Adjust spacing */
+    margin-top: 350px;
+  }
+
+  .letter-title {
+    font-size: 44px; /* Slightly smaller text */
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .icon {
+    width: 90px; /* Reduce icon size */
+  }
+
+  .letter-snippets {
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 15px;
+    margin-left: 260px;
+    margin-bottom: 10px;
+    transform: translateY(-5%);
+  }
+
+  .snippet-button {
+    max-width: 90%; /* Make it more responsive */
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .letter-footer {
+    font-size: 18px; /* Adjust text size */
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1366px) {
+  .fav-pics {
+    padding: 40px 15px;
+    margin-bottom: 100px;
+  }
+
+.heart-line img{
+  width: 340px;
+  margin-right: 100px;
+}
+
+.heart-line2 img{
+  width: 250px;
+  margin-right: 290px;
+  margin-top: -20px;
+}
+
+  .heart-line p{
+    font-size: 60px;
+    margin-right: 200px;
+  }
+
+.click img{
+  width: 230px;
+  margin-left: 60px;
+}
+
+
+.click1 img {
+  margin-right: 660px;
+  width: 250px;
+  margin-top: 520px;
+}
+
+.click2 img {
+  margin-left: 420px;
+}
+
+.camera{
+  margin-left: 350px;
+  margin-top: 50px;
+}
+
+  
+}
+
+
+@media (max-width: 1366px) {
+
+
+  .lyrics_cont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lyrics {
+    width: 90%;
+    max-width: 250px;
+    margin-left: 47px;
+  }
+
+.ly1{
+  transform: translate(235%, -605%);
+}
+
+.ly2{
+  transform: translate(235%, -525%);
+}
+
+.ly3{
+  transform: translate(235%, -625%);
+}
+
+ .svg-title h1{
+  transform: translateY(-190%);
+ }
+
+  .emotion-buttons {
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-50%);
+
+  }
+
+  .vinyl {
+    width: 100px;
+    height: 100px;
+  }
+
+  .vi1 p{
+    transform: translateY(395%);
+  }
+
+  .vi2 p{
+    transform: translateY(195%);
+  }
+  
+  .vi3 p{
+    transform: translateY(70%);
+  }
+  
+  .vi4 p{
+    transform: translateY(132%);
+  }
+
+ .urplaylist h1{
+  margin-left: -220px;
+ }
+
+  .playlist-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    transform: translate(12%,-340%);
+  }
+
+  .musicsec{
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 50px;
+    max-width: 65%;
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+  }
+
+
+
+}
+
+@media screen and (max-width: 1360px) {
+  
+  .story-modal {
+    width: 90%;
+    max-width: 700px;
+    height: auto;
+    padding: 20px;
+    margin-top: 200px;
+  }
+
+  .story-modal p {
+    font-size: 18px;
+    margin: 50px 0;
+  }
+
+  .story-modal .next-button {
+    transform: translate(0, 0);
+    width: auto;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .storycont {
+    width: 90%;
+    max-width: 450px;
+    height: auto;
+    padding: 20px;
+    transform: translate(10%, -460%);
+
+  }
+
+  .storycont p {
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 10px;
+  }
+
+  .storycont img {
+    width: 120px;
+    transform: translate(0, 0);
+  }
+
+  .sticky-notepad {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: auto;
+    padding: 15px;
+    transform: translate(155%, -402%);
+  }
+
+  .sticky-header {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .faq-content {
+    font-size: 14px;
+  }
+
+  .question {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .answer {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .show-story-btn {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+}
+
+
+@media screen and (max-width: 1360px) {
+  .booking-section {
+    width: 100%;
+    transform: translateY(-500%);
+    margin-left: -10px;
+  }
+
+  .popup {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1360px) {
+  .sticky-notepad {
+    max-width: 350px;
+    right: 10px; 
+    bottom: 10px; 
+    padding: 15px;
+  }
+
+  .question {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .answer {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
+
+

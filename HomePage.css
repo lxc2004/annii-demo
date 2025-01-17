@@ -1,0 +1,296 @@
+@media screen and (max-width: 600px) {
+
+  header {
+      max-width:10%;
+      margin-left: -80px;
+      font-size: 0.9em;
+  }
+.title,.titleS{
+  font-size:20px !important;
+}
+section{
+position: relative;
+  width: 100% !important;
+  height: 100vh;
+padding:0 !important;
+  padding-top: 200px !important;
+  overflow: hidden;
+}
+
+#text{
+  display:none!important;
+}
+  section img{
+  width:100% !important;
+      
+  margin-left:0 !important;
+  margin-right:0 !important;
+  }
+}
+
+
+
+
+
+
+*{
+  font-family:'Merriweather', serif;
+
+}
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(to bottom, #fff, #ff8fab); 
+}
+
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+
+}
+
+.envelope {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  background-color: #ff4d6d;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  transform: translate(165%,100%);
+}
+
+.envelope p{
+    background-color: #fff;
+    color: #ff4d6d;
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+     margin-left: 5px;
+     border-radius: 10px;
+     margin-top: 19px;
+
+
+}
+
+
+.envelope::before,
+.envelope::after {
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 93px;
+  background-color: #ff8fab;
+  transition: 0.5s ease;
+}
+
+.envelope::before {
+  top: 0;
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+
+.envelope::after {
+  bottom: 0;
+  clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
+
+
+.card {
+  position: absolute;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 8px;
+  opacity: 1;
+  transition: 1.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+a {
+  text-decoration: none;  
+  color: inherit;         
+}
+
+.heart-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    z-index: -1; 
+  }
+  
+  .heart {
+    position:absolute;
+    width: 60px;
+    height: 50px;
+    background-image: url('heart.png');
+    background-position: center;
+    background-size: contain;
+    background-position: center;
+    animation: float 25s infinite linear;
+  }
+  
+  
+  @keyframes float {
+    0% {
+      transform: translateY(100vh);
+    }
+    100% {
+      transform: translateY(-100vh);
+    }
+  }
+
+  
+
+.card{
+  z-index: 1;
+  box-shadow:-2px 0px 20px 9px #ff8fab;
+  width: 750px;
+  height: 400px;
+  margin-top: 110px;
+  margin-left: 750px;
+  overflow: hidden;
+  background: linear-gradient(#fff, #ff8fab);
+  padding: 10px;
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px solid #ddd; /* light gray border */
+  border-radius: 10px; /* rounded corners */
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+  overflow: hidden;
+  position: absolute;
+  color: #ff4d6d;
+  font-family:'Merriweather', serif;
+
+}
+
+
+.btn-group{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 9px;
+  position: relative;
+
+}
+
+
+button{
+    font-family: 'Merriweather', serif;
+    padding: 12px 24px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    background-color: #ff4d6d;
+    color: #fff; /* yes and no color */
+    margin: 25px; /* space between buttons */
+    
+}
+
+
+button:hover{
+  background: #ff4d6e6b;
+  color: #fff;
+  border-radius: 20px;
+}
+
+
+.container p{
+  text-align: center;
+}
+
+.container h1{
+  text-align: center;
+}
+
+.h1{
+  animation: fadeIn 2s;
+
+}
+
+.p{
+  animation: fadeIn 2.8s;
+}
+
+.h1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 40%;
+}
+
+
+.p::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 40%;
+}
+
+
+
+.animated-text{
+  justify-content: center;
+  align-items: center;
+  font-family: 'Merriweather', serif;
+  animation: fadeIn 5s;
+  font-weight: bolder;
+}
+
+.animated-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 40%;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
