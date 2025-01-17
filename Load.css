@@ -1,0 +1,81 @@
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, #fff, #ff8fab); 
+    display: grid;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    place-items: center;
+  }
+  
+  header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+
+  .progress{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ddd;
+    height: 30px;
+    width: 400px;
+    border-radius: 20px;
+  }
+
+  .progress-done{
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    color: #fff;
+    height: 100%;
+    background: linear-gradient(#ff8fab, #ff4d6d);
+    box-shadow: -2px 0px 20px 9px #ff8fab;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    width: 0;
+    transition: .2s ease;
+  }
+  
+
+  .gif-container img {
+    width: 130px; 
+    height: 130px; 
+    margin-top: -160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .image img{
+    width: 130px; 
+    height: 130px; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: -530;
+    margin-top: -115;
+  }
+
+.write p{
+    z-index: 1000;
+    font-weight: bolder;
+    margin-top: -170px;
+    font-family:'Merriweather', serif;
+    color: #ff4d6d;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
