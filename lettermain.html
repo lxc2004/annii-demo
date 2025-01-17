@@ -1,0 +1,103 @@
+<head>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remi</title>
+    <link rel = "stylesheet" href="lettermain.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Merriweather:wght@300;400;700;900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+
+  <div class="love-library">
+    <h2>Love Library....</h2>
+
+    <div class="letter-envelope" data-letter="letter1">
+      <img src="envelope.png" alt="Envelope">
+      <p class="letter-title">You</p>
+    </div>
+    
+    <div class="letter-envelope" data-letter="letter2">
+      <img src="envelope.png" alt="Envelope">
+      <p class="letter-title">Me</p>
+    </div>
+  
+    <div class="letter-envelope" data-letter="letter3">
+      <img src="envelope.png" alt="Envelope">
+      <p class="letter-title">Letter 3</p>
+    </div>
+  </div>
+
+
+  <div id="letter-popup" class="letter-popup">
+    <div class="letter-content">
+      <p id="letter-text">This is the content of the letter.</p>
+      <button id="close-letter-btn">Close</button>
+    </div>
+  </div>
+  
+
+
+
+
+
+</body>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+  const envelopes = document.querySelectorAll(".letter-envelope");
+  const letterPopup = document.getElementById("letter-popup");
+  const letterText = document.getElementById("letter-text");
+  const closeButton = document.getElementById("close-letter-btn");
+
+  envelopes.forEach(envelope => {
+    envelope.addEventListener("click", function() {
+      const letterID = envelope.getAttribute("data-letter");
+      openLetter(letterID);
+    });
+  });
+
+  closeButton.addEventListener("click", function() {
+    letterPopup.style.display = "none";
+  });
+
+  function openLetter(letterID) {
+    let letterContent = "";
+    if (letterID === "letter1") {
+      letterContent = "Dear the Loml,<br><br>Am writing this and idk how many more i am gonna write, but in this letter I wanna talk abt how beautiful u r ( not objectifying u..maybe) but u have no idea how pretty u r babe, not just before when ur hair was short and dyed, but now ur so pretty and u get prettier everyday u have such a fine body line with a sharp waist that could kill and feels so soothing to touch and u should take it from me as a person who has seen u only in ur perfume. When i tell u i dont even see other girls pretty anymore i genuinely mean it noone has been able to top ur features from the way u smile the most genuine smiles and have the prettiest laugh ive ever heard to ur little doe eyes that melts me whenever u look at me with them and give me those eyes. The way ur so stylish babee and every outfit u wear is just so fancy and elegant that i want you to dress me up. Every little feature or thing u do is just so pretty even the way u talk, ur sense of humor even when u use that fuckass words u still manage to make them sound like the most logical and prettiest thing ever. So Never feel insecure or tell me u feel uglier now cuz from what am seeing ur getting prettier and prettier in ur own way from every time to time. ";
+    } else if (letterID === "letter2") {
+      letterContent = "I love u cuz i aint got a choice, since u didnt practically give me a choice but to love like how can i not, ill call u cuz i wanna hear ur voice, drive all the way to u cuz i miss u even if i saw u the day before, try to escape the though of u but get nowhere so i still think of u cuz i got no choice, even if i wanted to the only other choice is u. and its a choice that will always be the most superior one. Thinking abt all the times u pulled me close to kiss me and leaning against the wall with me pressing on u and feeling ur hand on my face when u want to kiss me, just hearing the tone of ur voice makes me want u and want to do all those over and over again. again, Am so happy that ur the person i reach out to and ur the reason i cant sleep and ur the person i dream of and the person i get to keep and the person i get to love, thank u for being that person baby.";
+    } else if (letterID === "letter3") {
+      letterContent = "after a year and couple days am glad to let u know we r the cutest couple out there, ppl who have moved in our time span are alr living together as gfs but i would live with u as my wife to spend eternity with u. We r the most couple goals that ppl should look at, icb there was a time where i used to look at maya and mayar's relationship not that i was jealous but becuz i loved what they had and thought that thats what i wanted but now i realized the only thing they had was the comfiness between each other, but we already had that and we have so much more, rememeber when u told me to always communicate with u in the begining i never rlly got it and didnt wanna go thro with it but now am so glad we ingraved that within us cuz not only do we have the comfiness but also understanding we both value each other in such a way that ive never seen before. From me keeping up when u have ur attitude shifts or to u handling my annoying ass or mood shifts. Now i can also see us becoming each other like our laughs are alike and our humor its so cute. so i love that am becoming a part of u babe and its a relationship that dont blame anyone for being jealous of and hehe now ppl get jealous of what we have and want it. I love u ";
+    }
+    
+    // Set the content with HTML line breaks
+    letterText.innerHTML = letterContent;
+    letterPopup.style.display = "block";
+  }
+});
+
+
+
+
+
+
+
+
+
+</script>

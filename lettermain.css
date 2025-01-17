@@ -1,0 +1,165 @@
+@media screen and (max-width: 600px) {
+
+    header {
+        max-width:10%;
+        margin-left: -80px;
+        font-size: 0.9em;
+    }
+  .title,.titleS{
+    font-size:20px !important;
+  }
+  section{
+  position: relative;
+    width: 100% !important;
+    height: 100vh;
+  padding:0 !important;
+    padding-top: 200px !important;
+    overflow: hidden;
+  }
+  
+  #text{
+    display:none!important;
+  }
+    section img{
+    width:100% !important;
+        
+    margin-left:0 !important;
+    margin-right:0 !important;
+    }
+  }
+  
+  
+  
+  
+  body {
+      min-height: 100vh;
+      overflow-x: hidden;
+      background: linear-gradient(to bottom, #f9f0e4, #FB9AD1); 
+    }
+    
+    header{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 570%;
+      padding: 180px 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+    }
+
+
+
+    .love-library {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+        justify-content: center;
+        margin-top: 45px;
+    }
+    
+    .love-library h2 {
+        font-size: 4rem;
+        font-family: "Birthstone", cursive;
+        color: #FB9AD1; /* Title color */
+        text-align: center;
+        width: 100%;
+    }
+    
+    .letter-envelope {
+        display: flex;
+        flex-direction: column;  /* Stack image and text vertically */
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        width: 180px;
+    }
+    
+    .letter-envelope img {
+        width: 170px;
+        height: auto;
+    }
+    
+    .letter-title {
+        margin-top: 10px; /* Adds spacing between the envelope and title */
+        font-family: 'Merriweather', serif;
+        font-size: 17px;
+        color: #555;
+        line-height: 1.5;
+    }
+  
+  .letter-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    height: 500px;
+    max-width: 900px; /* Adjust as needed */
+    width: 90%;
+
+  }
+  
+  .letter-content {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1.4px, transparent 2px);
+    background-size: 40% 30px;
+    padding: 50px;
+    /* text-align: center; */
+    border: 6px solid #ddd;
+    border-radius: 8px;
+    line-height: 1.8 !important;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  #close-letter-btn {
+    margin-top: 5px;
+    background: #FB9AD1;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #close-letter-btn:hover {
+    background: #86469C;
+    color: white;
+  }
+  
+
+ .en1 p{
+    transform: translate( -145%, 106%);
+    font-family: 'Merriweather', serif; 
+    font-size: 17px;
+    color: #555;
+    line-height: 2.2;
+
+ }
+
+ .en2 p{
+    transform: translate( -150%, 6%);
+    font-family: 'Merriweather', serif; 
+    font-size: 17px;
+    color: #555;
+    line-height: 2.2;
+
+ }
+
+
+ .en3 p{
+    transform: translate(  -150%, 106%);
+    font-family: 'Merriweather', serif; 
+    font-size: 17px;
+    color: #555;
+    line-height: 2.2;
+
+ }
