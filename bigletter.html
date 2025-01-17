@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Big Letter</title>
+    <link rel="stylesheet" href="bigletter.css">
+</head>
+<body>
+
+    <div class="big-letter-container">
+        <button id="open-letter-btn" class="open-btn">Open My Letter 💌</button>
+    </div>
+
+    <div id="big-letter-popup" class="big-letter-popup">
+        <div class="big-letter-content">
+            <p id="big-letter-text">
+                My love, <br><br>
+                Mi amor my beloved wife damn there r too many things to say to u, but let me first rewind to the first time I fell for u, even during that time it felt so genuine its true i always say i was irrational and didnt think when i confessed but my crush on u was so big that it didnt allow me to think anyway.
+                u were perfect for me in every possible way and i was right i couldnt have been happier with anyone else as i am with u. Ngl before we started dating i was an insecure mess with every relationship i had with anyone
+                I was always scared of giving too much or being to clingy and never got the validation for the mere amount of love i showed, but with u am scared of not giving u enough or loving u too little, with u am the most confident and secure ive ever felt and thats why i found a home in u and a safe place MY safe place. After our first kiss ngl i felt my emotions more hightened
+                and thats when i knew there's no escape cuz not only u were an amazing gf but also a hot kisser hehe...and i just wanted more of u maybe so from there i just wanted to be urs, just so u would love me and love me and love me.. more and more 
+                ik i can be childish at times or needy but its just becuz for some reason i can never get enough of u and i blame u for that ur just too good at it, and cuz ur so good at it i tend to be super jealous and obssesive over u cuz i would Not want anyone else to feel what i feel or see what i see i just want it for me (might be toxic but-). remembering everything happened with us i couldnt be more grateful that u showed me the best days and made my life more bareable.
+                That one day when we went to the beach in the morning i swear that day i knew that id want to continue this life forever with u, while i was driving and ur playing and singing beside me ohmygod i just knew u were a piece of my heart, and i was looking at u with such love eyes... ur just perfect, beautiful and ive been feeling typa way ever since. so to end this, remember when i told u i wanna yab to u abt so many things and that i finally found a way to do so and in my mind 
+                it was thro this website but damn when i came to write what i wanted and i was speachless my mind couldnt word out anything there was soooo many stuff i wanted to talk to u abt that i feel u NEED to hear just to know how much u mean to me and how much of an amazing person u r so in advance am sorry to not be the most expressive but ill try my best more often to be so cuz not just today or in our anniversary or birthday that u deserve to listen abt how amazing u r, it should be an everyday thing.
+                I love u so much babe more than words could ever tell. happy one year my love. 
+            </p>
+            <button id="close-letter-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    let openBtn = document.getElementById("open-letter-btn");
+    let closeBtn = document.getElementById("close-letter-btn");
+    let popup = document.getElementById("big-letter-popup");
+
+    openBtn.addEventListener("click", function () {
+        popup.style.display = "block";
+    });
+
+    closeBtn.addEventListener("click", function () {
+        popup.style.display = "none";
+    });
+});
+
+</script>
