@@ -85,7 +85,7 @@
 
 .pic4 img{
   width: 270px;
-  transform: rotate(2deg) translate(-14%, -825%);
+  transform: rotate(2deg) translate(-14%, -865%);
 }
 
 .title h1{
@@ -178,7 +178,7 @@
 }
 
 .card4 { 
-  transform: rotate(-6deg)  translate(-70%, -235%);
+  transform: rotate(-6deg)  translate(-70%, -205%);
 }
 
 .card5 { 
